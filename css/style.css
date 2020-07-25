@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+img{
+  box-shadow: 0px 18px 26px #00000087;
+}
+
+header .navbar-light .navbar-nav li .nav-link{
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  padding: 6px 25px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+
+header .navbar-light .navbar-nav li .nav-link:hover{
+  background-color: #4C83DE;
+  color: #fff;
+
+}
+
+header .navbar-light .navbar-nav li:last-child .nav-link{
+  background-color:#4C83DE;
+  color: #fff;
+ }
+ .courses-section .course{
+  border-radius: 10px;
+  box-shadow: 15px 15px 6px #0000001a;
+  border: 0;
+
+}
+
+
+.courses-section .card-body{
+
+}
+
+.courses-section img{
+  border-radius: 10px;
+  padding: 20px
+
+}
+
+.courses-section .card-title{
+font-size: 26px;
+margin: 10px 0 0;
+}
+
+.courses-section .card-text{
+color:#000000;
+  font-size: 18px;
+  opacity: 0.7;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+.courses-section .nav{
+  margin-top: 10px; 
+  align-items: center;
+
+}
+
+.courses-section .nav li{
+
+}
+.courses-section .nav li img{
+width: 60px;
+}
+.courses-section .nav li span{
+  font-size: 14px;
+  font-weight: 500;
+
+}
+.btn-custom{
+  margin-top: 10px;
+    margin-left: 102px;
+  background-color: #4C83DE;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  padding: 6px 15px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  border: 3px solid #4C83DE;
+  
+
+}
+.btn-custom:hover{
+  background-color: transparent;
+  color: #4C83DE;}
+
+  .courses-section h1{
+         font-size: 57px;
+    color: #4c83de;
+    padding: 2px 364px;
+    margin-bottom: 22px;
+    box-shadow: 8px 10px 10px #4c83de; 
+  }
